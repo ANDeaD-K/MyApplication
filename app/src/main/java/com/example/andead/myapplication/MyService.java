@@ -61,6 +61,7 @@ public class MyService extends Service {
             for (int i = 0; i < 5; i++) {
                 if (bFinish)
                     break;
+                // This is test commit
 
                 try {
                     TimeUnit.SECONDS.sleep(3);
