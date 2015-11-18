@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 notification.setContentTitle("Test");
                 notification.setContentText("This is test text");
 
+                // This is my second commit
                 Notification not = notification.build();
                 NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
                 nm.notify(1, not);
